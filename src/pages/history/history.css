@@ -1,0 +1,86 @@
+.history-navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80px;
+}
+
+.navbar-head {
+  display: flex;
+  gap: 0.9rem;
+}
+
+.second-heading-one,
+.second-heading {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.second-heading-one {
+  color: rgb(66, 63, 63);
+}
+
+.second-heading {
+  color: rgb(77, 77, 116);
+}
+
+.history-navigation {
+  display: flex;
+  gap: 2rem;
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.history-body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1535px;
+  height: 700px;
+  margin: 0 auto;
+}
+
+.history-body-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 700px;
+}
+
+.number-container {
+  height: 177px;
+  overflow: hidden;
+}
+.the-number {
+  font-size: 12rem;
+  text-align: end;
+}
+
+.history-txt {
+  display: flex;
+  flex-direction: column;
+}
+
+.txt {
+  font-size: 1.87rem;
+}
+
+.blank {
+  height: 35px;
+  width: 35px;
+  background-color: rgb(43, 43, 210);
+  opacity: 0.5;
+}
+
+.lorem-block {
+  display: flex;
+  width: 100%;
+  max-width: 1400px;
+  justify-content: center;
+}
+
+.lorem-txt {
+  width: 700px;
+  font-weight: bold;
+  color: rgb(10, 0, 0);
+}
