@@ -1,1 +1,5 @@
-
+.carousel-images {
+  width: 390px;
+  height: 280px;
+  overflow: hidden;
+}

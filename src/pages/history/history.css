@@ -36,8 +36,9 @@
   flex-direction: column;
   width: 100%;
   max-width: 1535px;
-  height: 700px;
+  height: 800px;
   margin: 0 auto;
+  justify-content: space-around;
 }
 
 .history-body-head {
@@ -49,7 +50,6 @@
 
 .number-container {
   height: 177px;
-  overflow: hidden;
 }
 .the-number {
   font-size: 12rem;
@@ -83,4 +83,13 @@
   width: 700px;
   font-weight: bold;
   color: rgb(10, 0, 0);
+}
+
+.history-body-end-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  max-width: 100%;
+  width: 1550px;
 }
