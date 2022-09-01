@@ -2,6 +2,7 @@ import React from 'react';
 import Logo from '../../components/logo/Logo';
 import { NavLink } from 'react-router-dom';
 import mountainone from '../../images/mountainone.jpg';
+import ImageSlider from '../../imageslider/ImageSlider';
 import './history.css';
 
 const History = () => {
@@ -45,7 +46,9 @@ const History = () => {
             pariatur commodi ducimus eveniet?
           </p>
         </div>
-        <div className='history-body-end-block'></div>
+        <div className='history-body-end-block'>
+          <ImageSlider />
+        </div>
       </div>
     </div>
   );
