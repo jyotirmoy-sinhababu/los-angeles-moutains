@@ -1,3 +1,66 @@
+.climb-main-container {
+  max-width: 1550px;
+  width: 100%;
+}
+
 .climb-navbar-container {
   display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.climb-navbar-first-half {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.the-two {
+  font-size: 9.87rem;
+}
+
+.climb-txt {
+  display: flex;
+  flex-direction: column;
+  font-size: 2.1rem;
+}
+
+.climb-blank {
+  height: 35px;
+  width: 35px;
+  background-color: rgb(43, 43, 210);
+  opacity: 0.5;
+}
+
+.navlink-cnt {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  gap: 2.5rem;
+  background-color: rgb(43, 43, 210);
+}
+
+.climb-first-link {
+  margin-left: 150px;
+}
+
+.climb-second-link,
+.climb-first-link {
+  font-size: larger;
+  color: rgb(1, 1, 62);
+}
+.climb-body {
+  max-width: 1550px;
+  height: 255px;
+  display: flex;
+  flex-direction: column;
+}
+
+.climb-block {
+  display: flex;
+  margin-left: 150px;
+  width: 100%;
+
+  max-width: 1550px;
+  height: 255px;
 }
