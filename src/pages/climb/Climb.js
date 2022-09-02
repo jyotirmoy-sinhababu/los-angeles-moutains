@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import mountainthree from '../../images/mountainthree.jpg';
+import './climb.css';
 
 const Climb = () => {
   return (
@@ -27,8 +28,7 @@ const Climb = () => {
             MOUNTAIN 1
           </NavLink>
           <NavLink className='climb-second-link' to=''>
-            {' '}
-            MOUNTAIN 2{' '}
+            MOUNTAIN 2
           </NavLink>
         </div>
         <div
